@@ -1,0 +1,250 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    android:name="android.support.multidex.MultiDexApplication"
+4    package="com.ninja.jump.adventure"
+5    android:versionCode="1"
+6    android:versionName="1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:97:5-100:39
+13        android:anyDensity="true"
+13-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:99:9-34
+14        android:largeScreens="true"
+14-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:97:23-50
+15        android:normalScreens="true"
+15-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:100:9-37
+16        android:smallScreens="true" />
+16-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:98:9-36
+17
+18    <!-- INMOBI -->
+19    <!--
+20	<uses-permission android:name="android.permission.READ_LOGS" />
+21	<uses-permission android:name="android.permission.VIBRATE"/>
+22	<uses-permission android:name="android.permission.CALL_PHONE" />
+23	<uses-permission android:name="android.permission.READ_CALENDAR"/>
+24	<uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+25	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+26	<uses-permission android:name="android.permission.GET_TASKS" />
+27	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28	<uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+29    -->
+30    <!-- INMOBI -->
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:113:5-67
+31-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:113:22-64
+32    <uses-permission android:name="com.android.vending.BILLING" />
+32-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:114:5-67
+32-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:114:22-64
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:115:5-79
+33-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:115:22-76
+34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+34-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:116:5-75
+34-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:116:22-73
+35    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+35-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:117:5-81
+35-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:117:22-78
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:118:5-81
+36-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:118:22-78
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\5d35de9d7b8aa85fb9f41e38a227c7d2\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+37-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\5d35de9d7b8aa85fb9f41e38a227c7d2\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+38
+39    <application
+39-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:8:5-95:19
+40        android:name="androidx.multidex.MultiDexApplication"
+41        android:allowBackup="true"
+41-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:10:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\799659d157cba173c3391744d4f4133c\core-1.0.0\AndroidManifest.xml:22:18-86
+43        android:icon="@drawable/icon"
+43-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:9:9-38
+44        android:label="@string/app_name" >
+44-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:8:18-50
+45        <meta-data
+45-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:13:9-14:69
+46            android:name="com.google.android.gms.version"
+46-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:13:20-65
+47            android:value="@integer/google_play_services_version" />
+47-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:14:13-66
+48        <meta-data
+48-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:15:9-16:46
+49            android:name="com.google.android.gms.games.APP_ID"
+49-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:15:20-70
+50            android:value="@string/app_id" />
+50-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:16:13-43
+51
+52        <activity
+52-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:18:9-27:20
+53            android:name="com.ninja.jump.adventure.PTPlayer"
+53-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:18:19-43
+54            android:configChanges="orientation"
+54-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:22:13-48
+55            android:label="@string/app_name"
+55-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:19:13-45
+56            android:screenOrientation="portrait"
+56-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:20:13-49
+57            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+57-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:21:13-71
+58            <intent-filter>
+58-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:23:13-26:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:24:17-69
+59-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:24:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:25:17-77
+61-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:25:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <!-- FACEBOOK SDK -->
+66        <!--
+67        <activity android:name="com.facebook.ads.InterstitialAdActivity"
+68            android:configChanges="keyboardHidden|orientation"
+69            android:screenOrientation="portrait"/>
+70        -->
+71        <!-- FACEBOOK SDK -->
+72
+73
+74        <!-- ADMOB -->
+75        <meta-data
+75-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:36:9-37:69
+76            android:name="com.google.android.gms.ads.APPLICATION_ID"
+76-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:36:20-76
+77            android:value="ca-app-pub-3940256099942544~3347511713" />
+77-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:37:13-67
+78
+79        <activity
+79-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:39:9-41:64
+80            android:name="com.google.android.gms.ads.AdActivity"
+80-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:39:19-71
+81            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+81-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:40:13-122
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\7dccbae8722c557870f80b0767a8d958\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+83            android:theme="@android:style/Theme.Translucent" />
+83-->G:\ninja-jump-adventure-buildbox\BBDOC\ninja jump adventure Android 64 bit\android\app\src\main\AndroidManifest.xml:41:13-61
+84        <!-- ADMOB -->
+85
+86
+87        <!-- VUNGLE -->
+88        <!--
+89        <activity
+90             android:name="com.vungle.publisher.FullScreenAdActivity"
+91             android:configChanges="keyboardHidden|orientation|screenSize"
+92             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+93        -->
+94        <!-- VUNGLE -->
+95
+96
+97        <!-- HEYZAP -->
+98        <!--
+99        <activity android:name="com.heyzap.sdk.ads.HeyzapInterstitialActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+100        <activity android:name="com.heyzap.sdk.ads.HeyzapVideoActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+101        <activity android:name="com.heyzap.sdk.ads.HeyzapProxyActivity" />
+102        <activity android:name="com.heyzap.sdk.ads.VASTActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+103        <activity android:name="com.heyzap.sdk.ads.MediationTestActivity" />
+104        <receiver android:name="com.heyzap.sdk.ads.PackageAddedReceiver">
+105          <intent-filter>
+106            <data android:scheme="package"/>
+107            <action android:name="android.intent.action.PACKAGE_ADDED"/>
+108          </intent-filter>
+109        </receiver>
+110        -->
+111        <!-- HEYZAP -->
+112
+113
+114        <!-- APPLOVIN SDK -->
+115        <!--
+116        <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" />
+117        <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
+118		<meta-data
+119            android:name="applovin.sdk.key"
+120            android:value="{{AppLovin_SDK_key}}" />
+121        -->
+122        <!-- APPLOVIN SDK -->
+123
+124
+125        <!-- REVMOB -->
+126        <!--
+127        <activity android:name="com.revmob.FullscreenActivity"
+128            android:theme="@android:style/Theme.Translucent"
+129            android:configChanges="keyboardHidden|orientation">
+130        </activity>
+131        <meta-data android:name="com.revmob.app.id" android:value="{{RevMobMediaID}}"/>
+132        -->
+133        <!-- REVMOB -->
+134
+135
+136        <!-- INMOBI -->
+137        <!--
+138	<activity android:name="com.inmobi.rendering.InMobiAdActivity"
+139              android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize"
+140              android:theme="@android:style/Theme.Translucent.NoTitleBar"
+141              android:hardwareAccelerated="true" />
+142        -->
+143        <!-- INMOBI -->
+144
+145
+146        <!-- CHARTBOOST -->
+147        <!--
+148		<activity android:name="com.chartboost.sdk.CBImpressionActivity"
+149              android:excludeFromRecents="true"
+150              android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+151              android:configChanges="keyboardHidden|orientation|screenSize"/>
+152        -->
+153        <!-- CHARTBOOST -->
+154
+155        <activity
+155-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+156            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+156-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+157            android:excludeFromRecents="true"
+157-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+160        <!--
+161            Service handling Google Sign-In user revocation. For apps that do not integrate with
+162            Google Sign-In, this service will never be started.
+163        -->
+164        <service
+164-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+165            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+165-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+166            android:exported="true"
+166-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+167            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+167-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+168
+169        <activity
+169-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+170            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+170-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+171            android:exported="false"
+171-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+173
+174        <provider
+174-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\7dccbae8722c557870f80b0767a8d958\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+175            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+175-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\7dccbae8722c557870f80b0767a8d958\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+176            android:authorities="com.ninja.jump.adventure.mobileadsinitprovider"
+176-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\7dccbae8722c557870f80b0767a8d958\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\7dccbae8722c557870f80b0767a8d958\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+178            android:initOrder="100" />
+178-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\AVI777\.gradle\caches\transforms-2\files-2.1\7dccbae8722c557870f80b0767a8d958\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+179    </application>
+180
+181</manifest>

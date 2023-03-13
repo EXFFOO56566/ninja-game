@@ -1,0 +1,4 @@
+#Thu Jun 11 12:17:09 ICT 2020
+base.0=G\:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

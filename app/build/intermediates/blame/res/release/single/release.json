@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_icon.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_icon.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_icon.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_spacer.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable\\spacer.png"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_main.xml.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_icon.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_icon.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_icon.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_icon.png.flat",
+        "source": "G:\\ninja-jump-adventure-buildbox\\BBDOC\\ninja jump adventure Android 64 bit\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
+    }
+]
